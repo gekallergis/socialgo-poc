@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:2:1-94:12
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:2:1-95:12
 	package
 		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml
@@ -106,7 +106,7 @@ MERGED from [com.android.support:support-v4:24.1.1] /home/gkallergis/Desktop/soc
 		INJECTED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml
 		INJECTED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml
 application
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:44:5-92:19
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:44:5-93:19
 MERGED from [:wikitudesdk:] /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/exploded-aar/wikitudesdk/AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:support-v4:24.1.1] /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
 	android:label
@@ -139,82 +139,86 @@ activity#com.wikitude.samples.MainSamplesListActivity
 ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:61:9-80
 	android:name
 		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:61:19-78
+activity#com.wikitude.samples.Badges
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:62:9-63
+	android:name
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:62:19-61
 activity#com.wikitude.samples.SamplePoiDetailActivity
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:64:9-80
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:65:9-80
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:64:19-78
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:65:19-78
 activity#com.wikitude.samples.SampleCamActivity
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:67:9-136
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:68:9-136
 	android:configChanges
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:67:73-134
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:68:73-134
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:67:19-72
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:68:19-72
 activity#com.wikitude.samples.SampleCamContentFromNativeActivity
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:68:9-153
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:69:9-153
 	android:configChanges
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:68:90-151
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:69:90-151
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:68:19-89
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:69:19-89
 activity#com.wikitude.samples.SampleFrontCamActivity
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:69:9-141
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:70:9-141
 	android:configChanges
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:69:78-139
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:70:78-139
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:69:19-77
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:70:19-77
 activity#com.wikitude.samples.SamplePluginActivity
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:70:9-139
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:71:9-139
 	android:configChanges
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:70:76-137
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:71:76-137
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:70:19-75
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:71:19-75
 activity#com.wikitude.samples.FaceDetectionPluginActivity
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:71:9-146
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:72:9-146
 	android:configChanges
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:71:83-144
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:72:83-144
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:71:19-82
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:72:19-82
 activity#com.wikitude.samples.CustomCameraActivity
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:72:9-140
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:73:9-140
 	android:configChanges
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:72:76-137
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:73:76-137
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:72:19-75
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:73:19-75
 activity#com.wikitude.samples.MarkerTrackingPluginActivity
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:73:9-147
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:74:9-147
 	android:configChanges
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:73:84-145
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:74:84-145
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:73:19-83
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:74:19-83
 activity#com.wikitude.samples.utils.urllauncher.ARchitectUrlLauncherActivity
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:75:9-77:62
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:76:9-78:62
 	android:label
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:77:13-59
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:78:13-59
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:76:13-95
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:77:13-95
 activity#com.wikitude.samples.utils.urllauncher.ARchitectUrlLauncherCamActivity
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:78:9-81:62
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:79:9-82:62
 	android:label
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:81:13-59
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:82:13-59
 	android:configChanges
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:80:13-59
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:81:13-59
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:79:13-98
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:80:13-98
 activity#com.wikitude.tools.activities.MediaPlayerActivity
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:84:3-90:14
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:85:3-91:14
 	android:screenOrientation
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:85:4-41
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:86:4-41
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:84:13-77
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:85:13-77
 intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:86:4-89:20
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:87:4-90:20
 action#android.intent.action.VIEW
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:87:5-57
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:88:5-57
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:87:13-54
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:88:13-54
 category#android.intent.category.DEFAULT
-ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:88:5-64
+ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:89:5-64
 	android:name
-		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:88:15-61
+		ADDED from /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/AndroidManifest.xml:89:15-61
 activity#com.wikitude.architect.BrowserActivity
 ADDED from [:wikitudesdk:] /home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/exploded-aar/wikitudesdk/AndroidManifest.xml:14:9-75
 	android:name

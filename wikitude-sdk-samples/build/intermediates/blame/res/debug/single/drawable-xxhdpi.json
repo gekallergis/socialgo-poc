@@ -2,9 +2,5 @@
     {
         "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
         "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/drawable-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/gkallergis/Desktop/SocialGO/wikitude-sdk-samples/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
-        "source": "/home/gkallergis/Desktop/SocialGO/wikitude-sdk-samples/src/main/res/drawable-xxhdpi/ic_launcher.png"
     }
 ]

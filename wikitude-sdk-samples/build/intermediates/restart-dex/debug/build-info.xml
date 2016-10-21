@@ -5,32 +5,32 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="6142958534620"
-    token="-620458704305981708"
+    timestamp="13963626639645"
+    token="5379934454085647967"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="37" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="6" />
+        duration="0" />
     <task
         name="verifier"
         duration="0" />
 
     <artifact
-        location="/home/gkallergis/Desktop/SocialGO/wikitude-sdk-samples/build/outputs/apk/wikitude-sdk-samples-debug.apk"
+        location="/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/outputs/apk/wikitude-sdk-samples-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="6142958534620"
+        timestamp="13963626639645"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/gkallergis/Desktop/SocialGO/wikitude-sdk-samples/build/outputs/apk/wikitude-sdk-samples-debug.apk"
+            location="/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/outputs/apk/wikitude-sdk-samples-debug.apk"
             type="MAIN" />
     </build>
 

@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/home/gkallergis/Desktop/SocialGO/wikitude-sdk-samples/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
-        "source": "/home/gkallergis/Desktop/SocialGO/wikitude-sdk-samples/src/main/res/drawable-mdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
         "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/drawable-mdpi/drums.png",
+        "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/drawable-mdpi/drums.png"
+    },
+    {
+        "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/drawable-mdpi/micro.png",
+        "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/drawable-mdpi/micro.png"
+    },
+    {
+        "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/drawable-mdpi/guitar.png",
+        "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/drawable-mdpi/guitar.png"
     }
 ]

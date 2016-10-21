@@ -11,26 +11,34 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int drums=0x7f020000;
+        public static final int guitar=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int micro=0x7f020003;
     }
     public static final class id {
-        public static final int architectView=0x7f070000;
-        public static final int button_visit_url=0x7f070007;
-        public static final int mainFragement=0x7f070002;
-        public static final int mainFragementParent=0x7f070001;
-        public static final int poi_description=0x7f070005;
-        public static final int poi_id=0x7f070003;
-        public static final int poi_title=0x7f070004;
-        public static final int url=0x7f070006;
+        public static final int architectView=0x7f070003;
+        public static final int button_visit_url=0x7f07000a;
+        public static final int icon=0x7f070000;
+        public static final int mainFragement=0x7f070005;
+        public static final int mainFragementParent=0x7f070004;
+        public static final int poi_description=0x7f070008;
+        public static final int poi_id=0x7f070006;
+        public static final int poi_title=0x7f070007;
+        public static final int text1=0x7f070001;
+        public static final int textView1=0x7f070002;
+        public static final int url=0x7f070009;
     }
     public static final class layout {
-        public static final int list_sample=0x7f030000;
-        public static final int list_startscreen=0x7f030001;
-        public static final int sample_1=0x7f030002;
-        public static final int sample_cam=0x7f030003;
-        public static final int sample_cam_fragment_main=0x7f030004;
-        public static final int sample_poidetail=0x7f030005;
-        public static final int urllauncher_main=0x7f030006;
+        public static final int badge_list_item_1=0x7f030000;
+        public static final int badges=0x7f030001;
+        public static final int list_sample=0x7f030002;
+        public static final int list_startscreen=0x7f030003;
+        public static final int sample_1=0x7f030004;
+        public static final int sample_cam=0x7f030005;
+        public static final int sample_cam_fragment_main=0x7f030006;
+        public static final int sample_poidetail=0x7f030007;
+        public static final int urllauncher_main=0x7f030008;
     }
     public static final class raw {
         public static final int high_database=0x7f040000;

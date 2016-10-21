@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/gkallergis/Desktop/SocialGO/wikitude-sdk-samples/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/gkallergis/Desktop/SocialGO/wikitude-sdk-samples/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/debug/shaders"/></dataSet></merger>

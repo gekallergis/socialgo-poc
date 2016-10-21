@@ -102,7 +102,14 @@ public class MainActivity extends ListActivity{
 				Log.e("LALA", "Kati den pige kala!");
 			}
 		} else {
-
+			try {
+				final String className = "com.wikitude.samples.Badges";
+				final Intent intent = new Intent(this, Class.forName(className));
+				this.startActivity(intent);
+			} catch (Exception e) {
+				Log.e("DOJI", e.getMessage());
+				Log.e("LALA", "Kati den pige kala!Sorry e!");
+			}
 		}
 
 //			final Intent intent = new Intent( this, MainSamplesListActivity.class );
