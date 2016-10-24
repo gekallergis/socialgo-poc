@@ -5,40 +5,33 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="251338531075376"
+    timestamp="259123151982588"
     token="5379934454085647967"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="137" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="277" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="10" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/outputs/apk/wikitude-sdk-samples-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="251254312444917"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="259123151982588"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/outputs/apk/wikitude-sdk-samples-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="251338531075376"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

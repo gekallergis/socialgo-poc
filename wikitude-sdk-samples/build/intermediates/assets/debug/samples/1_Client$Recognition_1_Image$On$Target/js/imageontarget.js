@@ -47,27 +47,21 @@ var World = {
         });
 
 
-		/* Create overlay for page one */
-		var imgOne = new AR.ImageResource("assets/drums1.png");
-		var overlayOne = new AR.ImageDrawable(imgOne, 0.5, {
-			offsetX: -0.15,
-			offsetY: 0
-		});
-
-		/*
-			The last line combines everything by creating an AR.Trackable2DObject with the previously created tracker, the name of the image target and the drawable that should augment the recognized image.
-			Please note that in this case the target name is a wildcard. Wildcards can be used to respond to any target defined in the target collection. If you want to respond to a certain target only for a particular AR.Trackable2DObject simply provide the target name as specified in the target collection.
-		*/
-		var haveaniceday = new AR.Trackable2DObject(this.tracker, "Bon-Jovi-Have-A-Nice-Day", {
-			drawables: {
-				cam: overlayOne
-			}
-		});
-
 		var imgTwo = new AR.ImageResource("assets/micro1.png");
         var overlayTwo = new AR.ImageDrawable(imgTwo, 0.5, {
             offsetX: -0.15,
-            offsetY: 0
+            offsetY: 0,
+            onClick: function() {
+                var cssDivInstructions = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";
+                document.getElementById('loadingMessage').innerHTML = "<div" + cssDivInstructions + ">WOW! You got a new badge! Well done! GO find more!</div>";
+
+                setTimeout(function() {
+                    var e = document.getElementById('loadingMessage');
+                    e.parentElement.removeChild(e);
+                }, 10000);
+                window.location = 'architectsdk://getBadge?id=0';
+                return true;
+            }
         });
 
 
@@ -79,6 +73,35 @@ var World = {
                 cam: overlayTwo
             }
         });
+
+
+		/* Create overlay for page one */
+		var imgOne = new AR.ImageResource("assets/drums1.png");
+		var overlayOne = new AR.ImageDrawable(imgOne, 0.5, {
+			offsetX: -0.15,
+			offsetY: 0,
+			onClick: function() {
+                var cssDivInstructions = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";
+                document.getElementById('loadingMessage').innerHTML = "<div" + cssDivInstructions + ">WOW! You got a new badge! Well done! GO find more!</div>";
+
+                setTimeout(function() {
+                    var e = document.getElementById('loadingMessage');
+                    e.parentElement.removeChild(e);
+                }, 10000);
+                window.location = 'architectsdk://getBadge?id=1';
+                return true;
+            }
+		});
+
+		/*
+			The last line combines everything by creating an AR.Trackable2DObject with the previously created tracker, the name of the image target and the drawable that should augment the recognized image.
+			Please note that in this case the target name is a wildcard. Wildcards can be used to respond to any target defined in the target collection. If you want to respond to a certain target only for a particular AR.Trackable2DObject simply provide the target name as specified in the target collection.
+		*/
+		var haveaniceday = new AR.Trackable2DObject(this.tracker, "Bon-Jovi-Have-A-Nice-Day", {
+			drawables: {
+				cam: overlayOne
+			}
+		});
 
 
 	},
