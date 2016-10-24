@@ -20,9 +20,33 @@ var World = {
 			The next step is to create the augmentation. In this example an image resource is created and passed to the AR.ImageDrawable. A drawable is a visual component that can be connected to an IR target (AR.Trackable2DObject) or a geolocated object (AR.GeoObject). The AR.ImageDrawable is initialized by the image and its size. Optional parameters allow for position it relative to the recognized target.
 		*/
 
+
+        var video = new AR.VideoDrawable("assets/itsmylife.mp4", 1, {
+        			offsetY: 0,
+        		});
+
+
+/*
+            Adding the video to the image target is straight forward and similar like adding any other drawable to an image target.
+
+            Note that this time we use "*" as target name. That means that the AR.Trackable2DObject will respond to any target that is defined in the target collection. You can use wildcards to specify more complex name matchings. E.g. 'target_?' to reference 'target_1' through 'target_9' or 'target*' for any targets names that start with 'target'.
+
+            To start the video immediately after the target is recognized we call play inside the onEnterFieldOfVision trigger. Supplying -1 to play tells the Wikitude SDK to loop the video infinitely. Choose any positive number to re-play it multiple times.
+        */
+
+        var pageOne = new AR.Trackable2DObject(this.tracker, "itsmylife", {
+            drawables: {
+                cam: [video]
+            },
+            onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
+                video.play(-1);
+            }
+        });
+
+
 		/* Create overlay for page one */
-		var imgOne = new AR.ImageResource("assets/imageOne.png");
-		var overlayOne = new AR.ImageDrawable(imgOne, 1, {
+		var imgOne = new AR.ImageResource("assets/drums1.png");
+		var overlayOne = new AR.ImageDrawable(imgOne, 0.5, {
 			offsetX: -0.15,
 			offsetY: 0
 		});
@@ -31,26 +55,32 @@ var World = {
 			The last line combines everything by creating an AR.Trackable2DObject with the previously created tracker, the name of the image target and the drawable that should augment the recognized image.
 			Please note that in this case the target name is a wildcard. Wildcards can be used to respond to any target defined in the target collection. If you want to respond to a certain target only for a particular AR.Trackable2DObject simply provide the target name as specified in the target collection.
 		*/
-		var pageOne = new AR.Trackable2DObject(this.tracker, "*", {
+		var haveaniceday = new AR.Trackable2DObject(this.tracker, "Bon-Jovi-Have-A-Nice-Day", {
 			drawables: {
 				cam: overlayOne
 			}
 		});
+
+		var imgTwo = new AR.ImageResource("assets/micro1.png");
+        var overlayTwo = new AR.ImageDrawable(imgTwo, 0.5, {
+            offsetX: -0.15,
+            offsetY: 0
+        });
+
+
+        /*    The last line combines everything by creating an AR.Trackable2DObject with the previously created tracker, the name of the image target and the drawable that should augment the recognized image.
+            Please note that in this case the target name is a wildcard. Wildcards can be used to respond to any target defined in the target collection. If you want to respond to a certain target only for a particular AR.Trackable2DObject simply provide the target name as specified in the target collection.
+        */
+        var whichSong = new AR.Trackable2DObject(this.tracker, "bon-jovi-performing", {
+            drawables: {
+                cam: overlayTwo
+            }
+        });
+
+
 	},
 
-	worldLoaded: function worldLoadedFn() {
-		var cssDivLeft = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";
-		var cssDivRight = " style='display: table-cell;vertical-align: middle; text-align: left;'";
-		document.getElementById('loadingMessage').innerHTML =
-			"<div" + cssDivLeft + ">Scan Target &#35;1 (surfer):</div>" +
-			"<div" + cssDivRight + "><img src='assets/surfer.png'></img></div>";
 
-		// Remove Scan target message after 10 sec.
-		setTimeout(function() {
-			var e = document.getElementById('loadingMessage');
-			e.parentElement.removeChild(e);
-		}, 10000);
-	}
 };
 
 World.init();

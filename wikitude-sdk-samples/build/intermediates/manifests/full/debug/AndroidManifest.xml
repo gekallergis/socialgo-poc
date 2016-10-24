@@ -73,7 +73,6 @@
 
         <!-- overview / listactivities -->
         <activity android:name="com.wikitude.samples.MainSamplesListActivity" />
-        <activity android:name="com.wikitude.samples.Badges" />
 
         <!-- poi detail screen -->
         <activity android:name="com.wikitude.samples.SamplePoiDetailActivity" />

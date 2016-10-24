@@ -1,38 +1,66 @@
 [
     {
-        "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/sample_1.xml",
-        "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/sample_1.xml"
+        "merged": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/sample_cam.xml",
+        "source": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/sample_cam.xml"
     },
     {
-        "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/sample_poidetail.xml",
-        "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/sample_poidetail.xml"
+        "merged": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/badges.xml",
+        "source": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/badges.xml"
     },
     {
-        "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/sample_cam_fragment_main.xml",
-        "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/sample_cam_fragment_main.xml"
+        "merged": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/sample_cam.xml",
+        "source": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/src/main/res/layout/sample_cam.xml"
     },
     {
-        "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/urllauncher_main.xml",
-        "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/urllauncher_main.xml"
+        "merged": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/list_sample.xml",
+        "source": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/src/main/res/layout/list_sample.xml"
     },
     {
-        "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/list_sample.xml",
-        "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/list_sample.xml"
+        "merged": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/list_startscreen.xml",
+        "source": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/src/main/res/layout/list_startscreen.xml"
     },
     {
-        "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/sample_cam.xml",
-        "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/sample_cam.xml"
+        "merged": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/sample_1.xml",
+        "source": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/src/main/res/layout/sample_1.xml"
     },
     {
-        "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/list_startscreen.xml",
-        "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/list_startscreen.xml"
+        "merged": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/sample_cam_fragment_main.xml",
+        "source": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/sample_cam_fragment_main.xml"
     },
     {
-        "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/badge_list_item_1.xml",
-        "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/badge_list_item_1.xml"
+        "merged": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/badge_list_item_1.xml",
+        "source": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/badge_list_item_1.xml"
     },
     {
-        "merged": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/badges.xml",
-        "source": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/badges.xml"
+        "merged": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/sample_poidetail.xml",
+        "source": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/src/main/res/layout/sample_poidetail.xml"
+    },
+    {
+        "merged": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/sample_cam_fragment_main.xml",
+        "source": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/src/main/res/layout/sample_cam_fragment_main.xml"
+    },
+    {
+        "merged": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/sample_1.xml",
+        "source": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/sample_1.xml"
+    },
+    {
+        "merged": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/urllauncher_main.xml",
+        "source": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/src/main/res/layout/urllauncher_main.xml"
+    },
+    {
+        "merged": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/list_startscreen.xml",
+        "source": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/list_startscreen.xml"
+    },
+    {
+        "merged": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/list_sample.xml",
+        "source": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/list_sample.xml"
+    },
+    {
+        "merged": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/sample_poidetail.xml",
+        "source": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/sample_poidetail.xml"
+    },
+    {
+        "merged": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/layout/urllauncher_main.xml",
+        "source": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/src/main/res/layout/urllauncher_main.xml"
     }
 ]
