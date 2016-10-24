@@ -60,9 +60,6 @@ public class MainActivity extends ListActivity{
 
 		// use default list-ArrayAdapter */
 		this.setListAdapter( new ArrayAdapter<String>( this, android.R.layout.simple_list_item_1, android.R.id.text1, values ) );
-		TextView t = (TextView) findViewById(R.id.textView1);
-		String versionInfo = "SDK build date: " + ArchitectView.getBuildProperty("build.date");
-		t.setText(versionInfo);
 	}
 
 	private Set<String> getListFrom(String fname) {
@@ -106,7 +103,7 @@ public class MainActivity extends ListActivity{
 			for (int i= 0; i< activitiesToLaunch.size(); i++) {
 				final SampleMeta meta = activitiesToLaunch.get(i);*/
 				final String activityTitle = "Social GO";
-				String[] activityTitles = new String[activitiesToLaunch.size()];
+				String[] activityTitles = new String[2];
 				String[] activityUrls = new String[activitiesToLaunch.size()];
 				String[] activityClasses = new String[activitiesToLaunch.size()];
 				boolean[] activitiesIr = new boolean[activitiesToLaunch.size()];
@@ -118,11 +115,10 @@ public class MainActivity extends ListActivity{
 				activityUrls[0] = meta.path;
 				activitiesIr[0] = meta.hasIr;
 				activitiesGeo[0] = meta.hasGeo;
-
-
 				activityClasses[0] = ("com.wikitude.samples.SampleCamActivity");
 
-			//}
+				activityTitles[1] = "My Badges!";
+		//}
 
 			intent.putExtra(MainSamplesListActivity.EXTRAS_KEY_ACTIVITIES_ARCHITECT_WORLD_URLS_ARRAY, activityUrls);
 			intent.putExtra(MainSamplesListActivity.EXTRAS_KEY_ACTIVITIES_CLASSNAMES_ARRAY, activityClasses);

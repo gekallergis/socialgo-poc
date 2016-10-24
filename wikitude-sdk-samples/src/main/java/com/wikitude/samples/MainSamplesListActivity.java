@@ -9,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -54,20 +55,33 @@ public class MainSamplesListActivity extends ListActivity {
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 		super.onListItemClick(l, v, position, id);
 
-		/* get className of activity to call when clicking item at position x */
-		_lastSelectedListItemPosition = position;
+		Log.i("TEST", "CLICKED " + id);
 
-		if ( ContextCompat.checkSelfPermission(this, android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED ) {
-			ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.CAMERA}, WIKITUDE_PERMISSIONS_REQUEST_CAMERA);
-		} else {
-			if (this.getActivitiesGeo()[_lastSelectedListItemPosition]) {
-				if ( ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED ) {
-					ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, WIKITUDE_PERMISSIONS_REQUEST_GPS);
+		if(id == 0) {
+			/* get className of activity to call when clicking item at position x */
+			_lastSelectedListItemPosition = position;
+
+			if ( ContextCompat.checkSelfPermission(this, android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED ) {
+				ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.CAMERA}, WIKITUDE_PERMISSIONS_REQUEST_CAMERA);
+			} else {
+				if (this.getActivitiesGeo()[_lastSelectedListItemPosition]) {
+					if ( ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED ) {
+						ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, WIKITUDE_PERMISSIONS_REQUEST_GPS);
+					} else {
+						loadExample();
+					}
 				} else {
 					loadExample();
 				}
-			} else {
-				loadExample();
+			}
+		} else {
+			try {
+				final String className = "com.wikitude.samples.Badges";
+				final Intent intent = new Intent(this, Class.forName(className));
+				this.startActivity(intent);
+			} catch (Exception e) {
+				Log.e("LALA", e.getMessage());
+				Log.e("LALA", "Kati den pige kala!Sorry e!");
 			}
 		}
 	}
