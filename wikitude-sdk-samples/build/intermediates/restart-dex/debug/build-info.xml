@@ -5,9 +5,9 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="13963626639645"
+    timestamp="247713667427201"
     token="5379934454085647967"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -23,15 +23,22 @@
         duration="0" />
 
     <artifact
-        location="/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/outputs/apk/wikitude-sdk-samples-debug.apk"
-        type="MAIN" />
+        location="/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="13963626639645"
+        timestamp="247459724219573"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/outputs/apk/wikitude-sdk-samples-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="247713667427201"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

@@ -13,6 +13,7 @@ import android.net.Uri;
 import android.os.Environment;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.wikitude.architect.ArchitectView;
@@ -108,6 +109,12 @@ public class SampleCamActivity extends AbstractArchitectCamActivity {
                             }
 						}
 					});
+				}
+
+				// Test button!
+				else if ("test".equalsIgnoreCase(invokedUri.getHost())) {
+					Log.i("LALA", "BUTTON CLICKED!!! " + invokedUri.getQueryParameter("id"));
+
 				}
 				return true;
 			}

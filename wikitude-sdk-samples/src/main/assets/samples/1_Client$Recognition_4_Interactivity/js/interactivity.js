@@ -15,7 +15,7 @@ var World = {
 			Adding multiple targets to a target collection is straightforward. Simply follow our Target Management Tool documentation. Each target in the target collection is identified by its target name. By using this target name, it is possible to create an AR.Trackable2DObject for every target in the target collection.
 		*/
 		this.tracker = new AR.ClientTracker("assets/everything.wtc", {
-			onLoaded: this.worldLoaded
+			// Do nothing! :D
 		});
 
 		/*
@@ -59,7 +59,7 @@ var World = {
 			offsetX: 0.12,
 			offsetY: -0.01
 		});
-		var pageTwoButton = this.createWwwButton("https://www.maciag-offroad.de/kini-red-bull-downhill-helm-mtb-silber-blau-sid50616.html", 0.15, {
+		var pageTwoButton = this.createWwwButton(0.15, {
 			offsetX: 0,
 			offsetY: -0.25,
 			zOrder: 1
@@ -75,30 +75,16 @@ var World = {
 		});
 	},
 
-	createWwwButton: function createWwwButtonFn(url, size, options) {
+	createWwwButton: function createWwwButtonFn(size, options) {
 		/*
 			As the button should be clickable the onClick trigger is defined in the options passed to the AR.ImageDrawable. In general each drawable can be made clickable by defining its onClick trigger. The function assigned to the click trigger calls AR.context.openInBrowser with the specified URL, which opens the URL in the browser.
 		*/
 		options.onClick = function() {
-			AR.context.openInBrowser(url);
+                var currentMarker = World.currentMarker;
+                var architectSdkUrl = "architectsdk://test?id=" + encodeURIComponent('123456');
+                document.location = architectSdkUrl;
 		};
 		return new AR.ImageDrawable(this.imgButton, size, options);
-	},
-
-	worldLoaded: function worldLoadedFn() {
-		var cssDivInstructions = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";
-		var cssDivSurfer = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 38px'";
-		var cssDivBiker = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px;'";
-		document.getElementById('loadingMessage').innerHTML =
-			"<div" + cssDivInstructions + ">Scan Target &#35;1 (surfer) or &#35;2 (biker):</div>" +
-			"<div" + cssDivSurfer + "><img src='assets/surfer.png'></img></div>" +
-			"<div" + cssDivBiker + "><img src='assets/bike.png'></img></div>";
-
-		// Remove Scan target message after 10 sec.
-		setTimeout(function() {
-			var e = document.getElementById('loadingMessage');
-			e.parentElement.removeChild(e);
-		}, 10000);
 	}
 };
 
