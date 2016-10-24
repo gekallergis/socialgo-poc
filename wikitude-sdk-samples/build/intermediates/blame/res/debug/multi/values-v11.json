@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
+        "outputFile": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,33 +12,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "/home/aoikonomou/git/socialgo-poc/wikitude-sdk-samples/src/main/res/values-v11/styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 177,
-                        "endLine": 8,
-                        "endColumn": 12,
-                        "endOffset": 309
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 4,
-                    "endColumn": 12,
-                    "endOffset": 187
-                },
-                "from": {
-                    "file": "/home/aoikonomou/Wikitude/Wikitude Javascript/Examples/SDKExamples/wikitude-sdk-samples/src/main/res/values-v11/styles.xml",
+                    "file": "/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/src/main/res/values-v11/styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

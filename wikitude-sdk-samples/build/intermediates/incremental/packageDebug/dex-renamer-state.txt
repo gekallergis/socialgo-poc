@@ -1,4 +1,4 @@
-#Fri Oct 21 19:00:55 EEST 2016
+#Mon Oct 24 12:10:26 EEST 2016
 base.0=/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/home/gkallergis/Desktop/socialgo-poc/wikitude-sdk-samples/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

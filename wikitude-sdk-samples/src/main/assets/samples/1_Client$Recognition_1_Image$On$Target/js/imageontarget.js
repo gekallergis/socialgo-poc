@@ -40,6 +40,9 @@ var World = {
             },
             onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
                 video.play(-1);
+            },
+            onExitFieldOfVision: function onExitFieldOfVisionFn() {
+                video.stop();
             }
         });
 
